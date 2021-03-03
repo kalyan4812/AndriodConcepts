@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201E1E"
+    tools:context=".Basics.Actv">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ecn"
+    android:textColor="@color/colorPrimary"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:textSize="30sp"></TextView>
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FF9800"
+        android:layout_marginTop="30sp"
+        android:textColorHint="@color/colorPrimary"
+        android:backgroundTint="#CDDC39"
+        android:gravity="center"
+        android:id="@+id/actv"
+        android:hint="xml configuration"
+
+        android:textAlignment="center"
+        android:textStyle="bold"></AutoCompleteTextView>
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FF9800"
+        android:textColorHint="@color/colorPrimary"
+        android:backgroundTint="#CDDC39"
+        android:gravity="center"
+        android:id="@+id/actv2"
+        android:hint="java configuration"
+        android:textAlignment="center"
+        android:textStyle="bold"></AutoCompleteTextView>
+     <Spinner
+         android:layout_width="250sp"
+         android:layout_height="wrap_content"
+         android:background="#3F51B5"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="30sp"
+
+         android:entries="@array/countrynames"
+         android:id="@+id/spinner"></Spinner>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:id="@+id/listview"
+        android:background="@color/colorPrimary"
+        android:entries="@array/countrynames"
+        ></ListView>
+
+</LinearLayout>

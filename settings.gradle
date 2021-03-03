@@ -1,0 +1,2 @@
+rootProject.name='AndriodConcept'
+include ':app', ':ksoap2-android-3.6.4', ':ksoap2-base-3.4.0-javadoc', ':ksoap2-android-assembly-3.4.0-jar-with-dependencies', ':org.apache.commons.codec-1.8-sources', ':commons-io-2.5'

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WebServices.gson">
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="ENTER EMAIL "
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:layout_marginTop="70sp"
+        android:background="@drawable/editbg"
+        android:id="@+id/ed1"
+        ></EditText>
+    <EditText
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:background="@drawable/editbg"
+        android:layout_height="50dp"
+        android:hint="ENTER PASSWORD"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:id="@+id/ed2"
+        ></EditText>
+    <EditText
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:background="@drawable/editbg"
+        android:layout_height="50dp"
+        android:hint="ENTER NAME"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:id="@+id/ed3"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="INSERT"
+        android:onClick="insert"
+        android:id="@+id/insert"
+        android:background="@drawable/buttonbg"
+
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="READ"
+        android:onClick="read"
+        android:id="@+id/read"
+        android:background="@drawable/buttonbg"
+
+        />
+
+</LinearLayout>

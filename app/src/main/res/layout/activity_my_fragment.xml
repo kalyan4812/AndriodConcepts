@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.MyFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:text="FRAGMENTS"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center">
+
+        </TextView>
+
+    <!-- u can use framelayout instead of fragment,
+    because framelayout is parent of fragment -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:id="@+id/frame"
+        ></FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:padding="10sp"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.33"
+            android:id="@+id/home"
+            android:clickable="true"
+            android:padding="10dp"
+            android:onClick="home"
+            android:text="HOME"
+            android:background="@drawable/buttonbg"
+          android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="#232323"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+         android:padding="10dp"
+            android:textColor="#232323"
+            android:layout_weight="0.33"
+            android:text="GALLERY"
+            android:background="@drawable/buttonbg"
+      android:textAlignment="center"
+            android:textSize="15sp"
+            android:id="@+id/gal"
+            android:onClick="gallery"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+          android:textColor="#232323"
+            android:text="CONTACTS"
+            android:background="@drawable/buttonbg"
+            android:textSize="15sp"
+            android:id="@+id/contacts"
+            android:onClick="contacts"
+            android:padding="10dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

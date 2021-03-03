@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings"
+        android:title="SETTINGS"
+        app:showAsAction="always"
+        android:icon="@drawable/google_icon"
+        />
+
+    <item
+        android:id="@+id/about"
+        android:title=" ABOUT"
+        android:icon="@drawable/google_icon"
+        />
+    <item
+        android:id="@+id/contactus"
+        android:title="CONTACT US"
+        android:icon="@drawable/google_icon"
+        />
+    <item
+        android:id="@+id/location"
+        android:title="LOCATION"
+        android:icon="@drawable/google_icon"
+        />
+    <item
+        android:id="@+id/exit"
+        android:title="EXIT"
+        android:icon="@drawable/google_icon"
+        />
+
+</menu>

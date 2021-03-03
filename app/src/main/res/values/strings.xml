@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AndriodConcept</string>
+    <string-array name="countrynames">
+        <item>INDIA</item>
+        <item>RUSSIA</item>
+        <item>ITALY</item>
+        <item>AMERICA</item>
+        <item>BRAZIL</item>
+        <item>BANGLADESH</item>
+        <item>JAPAN</item>
+        <item>JORDAN</item>
+        <item>JAMAICA</item>
+        <item>IRAN</item>
+        <item>CHINA</item>
+    </string-array>
+    <string name="ecn"> ENTER COUNTRY NAME :</string>
+    <string name="channelId">123</string>
+    <string name="layouts" translatable="false">LAYOUTS</string>
+    <string name="auto_complete_text_view" translatable="false">AUTO COMPLETE TEXT VIEW</string>
+    <string name="spinner" translatable="false">SPINNER</string>
+    <string name="list_view">LIST VIEW</string>
+    <string name="dyanamic_list_view">DYANAMIC list_view</string>
+    <string name="promo">INDIA NEED ANDROID DEVELOPERS.....</string>
+    <string name="title_activity_forgeround_service">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>
+

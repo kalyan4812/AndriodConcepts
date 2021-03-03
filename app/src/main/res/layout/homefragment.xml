@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C6EC9B"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:text="HOME FRAGMENT"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn"
+
+        android:layout_marginTop="30sp"
+        android:background="@drawable/buttonbg"
+        android:text="HOME CLICK"></Button>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/sendtext"
+        android:hint="SEND DATA TO GALLERY FRAGMENT"
+        android:layout_margin="40dp"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/senddata"
+
+        android:layout_marginTop="30sp"
+        android:background="@drawable/buttonbg"
+        android:text="SEND DATA "></Button>
+
+
+</LinearLayout>

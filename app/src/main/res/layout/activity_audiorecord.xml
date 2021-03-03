@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Multimedia.Audiorecord">
+    <Button
+        android:layout_marginTop="90sp"
+        android:layout_height="200dp"
+        android:layout_width="200sp"
+        android:id="@+id/record"
+        android:onClick="record"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_mic_black_24dp"
+        ></Button>
+    <Button
+        android:layout_marginTop="90sp"
+        android:layout_height="200dp"
+        android:layout_width="200sp"
+        android:id="@+id/stop"
+        android:onClick="stop"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_mic_off_black_24dp"
+        ></Button>
+
+
+</LinearLayout>

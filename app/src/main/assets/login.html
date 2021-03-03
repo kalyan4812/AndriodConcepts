@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script language="JavaScript">
+        function login(){
+        var name=document.getElementById("name").value;
+        var pass=document.getElementById("pass").value;
+        myinterface.displayMsg(name,pass);
+        }
+    </script>
+</head>
+<body  bgcolor="#000000"  text="white">
+<center>
+    <table border="2">
+
+        <tr><td colspan="2" align="center"></td></tr>
+        <tr><td >ENTER USER NAME:</td><td><input type="text" id="name"/></td></tr>
+        <tr><td>ENTER PASSWORD:</td><td><input type="password" id="pass"/> </td></tr>
+        <tr><td colspan="2" align="center"><input type="button" value="LOGIN" onclick="login()"/></td></tr>
+    </table>
+</center>
+
+</body>
+</html>
